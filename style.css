@@ -967,3 +967,13 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+.site-branding {
+	text-align: center;
+}
+
+.custom-logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
