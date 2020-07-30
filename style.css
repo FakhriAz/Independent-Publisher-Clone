@@ -653,7 +653,7 @@ textarea {
 }
 
 .main-navigation ul {
-	display: none;
+	/* display: none; */
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
@@ -661,7 +661,7 @@ textarea {
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
+	float: left; 
 	position: absolute;
 	top: 100%;
 	left: -999em;
@@ -671,7 +671,7 @@ textarea {
 .main-navigation ul ul ul {
 	left: -999em;
 	top: 0;
-}
+} 
 
 .main-navigation ul ul li:hover > ul,
 .main-navigation ul ul li.focus > ul {
@@ -703,11 +703,11 @@ textarea {
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 32em) {
 
-	.menu-toggle {
+	/* .menu-toggle {
 		display: none;
-	}
+	} */
 
 	.main-navigation ul {
 		display: flex;
@@ -968,8 +968,18 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-.site-branding {
+.site-branding, .menu.nav-menu {
 	text-align: center;
+}
+
+#primary-menu {
+    justify-content: center;
+}
+
+ul#primary-menu {
+	padding: 0;
+	margin: 0;
+	display: flex;
 }
 
 .custom-logo {
