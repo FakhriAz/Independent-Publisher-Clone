@@ -46,8 +46,9 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'independent-publisher-clone' ); ?></button>
+			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'independent-publisher-clone' ); ?></button> -->
 			<?php
+			// echo "<p>Test</p>";
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
