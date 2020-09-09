@@ -984,7 +984,30 @@ ul#primary-menu {
 }
 
 .custom-logo {
-	width: 75px;
-	height: 75px;
+	width: 85px;
+	height: 85px;
 	border-radius: 50%;
+}
+
+/* CSS not related to underscore starter theme
+----------------------------------------------*/
+.site-branding > h1 > a {
+	font-size: 40px;
+    margin-top: 10px;
+	margin-bottom: 0px;
+	text-decoration: none;
+    color: black;
+}
+
+.site-description {
+	margin-top: 4px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: grey;
+}
+
+.site-branding h1 {
+	font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
