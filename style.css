@@ -1011,3 +1011,17 @@ ul#primary-menu {
     margin-top: 10px;
     margin-bottom: 0px;
 }
+
+.site-footer {
+	text-align: center;
+    margin-top: 80px;
+}
+
+.site-footer > .site-info > a {
+	text-decoration: none;
+    color: rgb(38, 160, 231);
+}
+
+.site-footer > .site-info > a:hover {
+	text-decoration-line: underline;
+}
