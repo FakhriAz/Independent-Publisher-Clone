@@ -51,7 +51,7 @@
 			$independent_publisher_clone_description = get_bloginfo( 'description', 'display' );
 			if ( $independent_publisher_clone_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $independent_publisher_clone_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+				<h4 class="site-description"><?php echo $independent_publisher_clone_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h4>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
