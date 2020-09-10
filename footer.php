@@ -22,7 +22,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'independent-publisher-clone' ), 'independent-publisher-clone', '<a href="http://underscores.me/">Underscores.me</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'Independent Publisher 2 clone' ), 'Independent Publisher 2 clone', '<a href="http://fakhriazzouz.com/">Fakhri Azzouz</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
