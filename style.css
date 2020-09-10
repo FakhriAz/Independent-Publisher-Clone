@@ -1007,9 +1007,9 @@ ul#primary-menu {
 }
 
 .site-branding h1 {
-	font-size: 40px;
+	font-size: 38px;
     margin-top: 10px;
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .site-footer {
@@ -1024,4 +1024,12 @@ ul#primary-menu {
 
 .site-footer > .site-info > a:hover {
 	text-decoration-line: underline;
+}
+
+.site-branding h4 {
+	font-size: 17px;
+	margin-top: 4px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: grey;
 }
