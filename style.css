@@ -1033,3 +1033,29 @@ ul#primary-menu {
     font-weight: normal;
     color: grey;
 }
+
+.three-lines {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.menu-button {
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+    background-color: white;
+    border: solid grey;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+button.menu-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-right: 1em;
+    padding-left: 1em; 
+}
