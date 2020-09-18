@@ -56,6 +56,10 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-button">
+			<img class="three-lines" src="<?php echo get_template_directory_uri(); ?>/three-lines-grey.svg" alt="menu-hamburger"/>
+                Menu
+            </button>
 			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'independent-publisher-clone' ); ?></button> -->
 			<?php
 			// echo "<p>Test</p>";
