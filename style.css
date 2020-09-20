@@ -1059,3 +1059,21 @@ button.menu-button {
     padding-right: 1em;
     padding-left: 1em; 
 }
+
+.menu-items{
+	display: none;
+}
+
+.menu-items.display{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    margin: auto;
+}
+
+.menu-items ul {
+    padding: 20px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
