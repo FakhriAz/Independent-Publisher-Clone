@@ -58,11 +58,11 @@
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-button">
 			<img class="three-lines" src="<?php echo get_template_directory_uri(); ?>/three-lines-grey.svg" alt="menu-hamburger"/>
-                Menu
-            </button>
-			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'independent-publisher-clone' ); ?></button> -->
+				Menu
+			</button>
+				
+			<div class="menu-items">
 			<?php
-			// echo "<p>Test</p>";
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
@@ -70,5 +70,7 @@
 				)
 			);
 			?>
+			</div>
+			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'independent-publisher-clone' ); ?></button> -->
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
