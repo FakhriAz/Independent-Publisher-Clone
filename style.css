@@ -532,6 +532,7 @@ table {
 
 /* Links
 --------------------------------------------- */
+/*
 a {
 	color: #4169e1;
 }
@@ -554,7 +555,7 @@ a:hover,
 a:active {
 	outline: 0;
 }
-
+*/
 /* Forms
 --------------------------------------------- */
 button,
@@ -1081,11 +1082,24 @@ button.menu-button {
 
 .menu-items ul li {
     list-style-type: none;
-    color: rgb(38, 160, 231);
     font-weight: bold;
-    font-size: 20px ;
+	font-size: 20px;
 }
 
 ul li:hover{
     color: rgb(113, 210, 255);
+}
+
+ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 600%;
+    /*margin: 10px;*/
+    background: grey;
+}
+
+.menu-items.display ul li a {
+	padding-left: 10px;
+	color: #00aadc;
 }
