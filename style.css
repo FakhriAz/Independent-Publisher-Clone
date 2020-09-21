@@ -661,7 +661,7 @@ textarea {
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left; 
+	/*float: left; */
 	position: absolute;
 	top: 100%;
 	left: -999em;
@@ -976,12 +976,12 @@ textarea {
     justify-content: center;
 }
 
-ul#primary-menu {
+/*ul#primary-menu {
 	padding: 0;
 	margin: 0;
 	display: flex;
 	justify-content: space-around;
-}
+}*/
 
 .custom-logo {
 	width: 85px;
@@ -1072,8 +1072,20 @@ button.menu-button {
 }
 
 .menu-items ul {
+	display: block;
     padding: 20px;
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.menu-items ul li {
+    list-style-type: none;
+    color: rgb(38, 160, 231);
+    font-weight: bold;
+    font-size: 20px ;
+}
+
+ul li:hover{
+    color: rgb(113, 210, 255);
 }
