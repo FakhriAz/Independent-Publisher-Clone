@@ -1086,20 +1086,53 @@ button.menu-button {
 	font-size: 20px;
 }
 
-ul li:hover{
-    color: rgb(113, 210, 255);
+.menu-items.display ul li a:hover {
+    color: #00aadcab;
 }
 
 ul li:after {
     content: "";
     display: block;
     height: 1px;
-    width: 600%;
-    /*margin: 10px;*/
+    width: 400%;
+    margin: 10px;
     background: grey;
 }
 
 .menu-items.display ul li a {
 	padding-left: 10px;
 	color: #00aadc;
+}
+
+@media screen and (min-width: 518px) {
+    .menu-items {
+        display: flex;
+		width: 500px;  
+		justify-content: center; 
+		margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .menu-items ul {
+		display: flex;
+    }
+    button.menu-button {
+        display: none;
+	}
+    .menu-items ul li {
+        margin-left: auto;
+		margin-right: auto;
+		padding-right: 12px;
+		padding-left: 12px;
+	}
+	ul li:after {
+		display: none;	
+	}
+	.menu-items ul li a {
+		font-size: 17px;
+		color: #00aadc;
+	}
+	.menu-items ul li a:hover {
+		color: #00aadcab;
+	}
 }
