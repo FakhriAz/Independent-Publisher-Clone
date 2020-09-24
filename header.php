@@ -18,14 +18,6 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<script src="https://kit.fontawesome.com/59e8cbdc1f.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script>
-	$(document).ready(function(){
-		$(".menu-button").click(function(){
-			$(".menu-items").toggleClass('display');
-		});
-		});
-	</script>
-
 
 	<?php wp_head(); ?>
 </head>
@@ -57,7 +49,7 @@
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-button">
-			<img class="three-lines" src="<?php echo get_template_directory_uri(); ?>/three-lines-grey.svg" alt="menu-hamburger"/>
+			<img class="three-lines" src="<?php echo get_template_directory_uri(); ?>/images/three-lines-grey.svg" alt="menu-hamburger"/>
 				Menu
 			</button>
 				
